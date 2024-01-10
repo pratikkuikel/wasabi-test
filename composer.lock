@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b95dc16a073828580281f96e88ddd0da",
+    "content-hash": "864ae865575b0c4f38582d6c4267e633",
     "packages": [
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -4013,6 +4013,84 @@
                 }
             ],
             "time": "2023-11-12T21:59:55+00:00"
+        },
+        {
+            "name": "pratikkuikel/wasabi",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pratikkuikel/wasabi.git",
+                "reference": "f5d69f392076c9b8932a04565f86f49512328a3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pratikkuikel/wasabi/zipball/f5d69f392076c9b8932a04565f86f49512328a3d",
+                "reference": "f5d69f392076c9b8932a04565f86f49512328a3d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^10.0",
+                "php": "^8.1",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^2.0.1",
+                "laravel/pint": "^1.0",
+                "nunomaduro/collision": "^7.8",
+                "orchestra/testbench": "^8.8",
+                "pestphp/pest": "^2.20",
+                "pestphp/pest-plugin-arch": "^2.0",
+                "pestphp/pest-plugin-laravel": "^2.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pratikkuikel\\Wasabi\\WasabiServiceProvider"
+                    ],
+                    "aliases": {
+                        "Wasabi": "Pratikkuikel\\Wasabi\\Facades\\Wasabi"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pratikkuikel\\Wasabi\\": "src/",
+                    "Pratikkuikel\\Wasabi\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "pratik kuikel",
+                    "email": "herecomeslucky0145@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Json column keys to model attributes",
+            "homepage": "https://github.com/pratikkuikel/wasabi",
+            "keywords": [
+                "laravel",
+                "pratikkuikel",
+                "wasabi"
+            ],
+            "support": {
+                "issues": "https://github.com/pratikkuikel/wasabi/issues",
+                "source": "https://github.com/pratikkuikel/wasabi/tree/v1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/pratik kuikel",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-01-10T14:56:25+00:00"
         },
         {
             "name": "psr/cache",

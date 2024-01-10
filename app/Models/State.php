@@ -2,7 +2,8 @@
 
 namespace App\Models;
 
-use App\Traits\Wasabi;
+// use App\Traits\Wasabi;
+use Pratikkuikel\Wasabi\Traits\Wasabi;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
