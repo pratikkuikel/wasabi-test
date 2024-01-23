@@ -9,13 +9,12 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "calebporzio/sushi": "^2.4",
         "filament/filament": "^3.1",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
-        "pratikkuikel/wasabi": "^1.0"
+        "pratikkuikel/wasabi": "@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -69,5 +68,14 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "wasabi",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
 }

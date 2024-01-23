@@ -17,8 +17,9 @@ class State extends Model
     // override the default json data field, default field name is `data`
     public function __construct(array $attributes = [])
     {
+        static::setWasabiStatus(true);
+        static::setDataField('mero');
         parent::__construct($attributes);
-        self::setDataField('mero'); // Override the default dataField
     }
 
     protected $casts = [
